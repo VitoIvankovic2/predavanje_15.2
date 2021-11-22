@@ -11,6 +11,11 @@ def index():
 def portfolio():
     return render_template("portfolio.html")
 
+@app.route("/kontakt"
+           "")
+def kontakt():
+    return render_template("kontakt.html")
+
 if __name__ == "__main__":
     app.run(use_reloader=True)
 
