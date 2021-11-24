@@ -11,8 +11,7 @@ def index():
 def portfolio():
     return render_template("portfolio.html")
 
-@app.route("/kontakt"
-           "")
+@app.route("/kontakt")
 def kontakt():
     return render_template("kontakt.html")
 
